@@ -11,7 +11,7 @@ def stt():
     # recognize speech using Sphinx  
      try:
         wikiin=r.recognize_google(audio)
-        #print(r.recognize_google(audio))
+        print(r.recognize_google(audio))
         return(wikiin)
          
      except sr.UnknownValueError:  
